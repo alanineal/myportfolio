@@ -1,0 +1,27 @@
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+.header {
+  grid-area: header;
+}
+
+.main {
+  grid-area: main;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.headshot {
+  max-width: 20%;
+}
+
+.headshot img {
+  max-width: 90%;
+}
