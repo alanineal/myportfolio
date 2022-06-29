@@ -1,4 +1,10 @@
-.grid-container{
+body {
+    font-family: Impact;
+    background-image: conic-gradient(#ffccf9, #fbe4ff, #c4faf8);
+    background-repeat: no-repeat;
+    background-size: cover;}
+  
+  .grid-container{
     display: grid;
     grid-template-areas:
     

@@ -1,43 +1,47 @@
-.grid-container{
-    display: grid;
-    grid-template-areas: 
+body {
+  font-family: Impact;
+  background-image: conic-gradient(#ffccf9, #fbe4ff, #c4faf8);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-container {
+  display: grid;
+  gap: 2%;
+  grid-template-areas:
     "header"
     "headshot"
     "social"
+    "contact"
     "call"
-
+    "email"
     "footer";
-
-
 }
 
-.header{
-
-
+.header {
+  grid-area: header;
 }
 
-.headshot{
-
-
+.headshot {
+  grid-area: headshot;
 }
 
-.photoandcontactheader{
-
-
+.social {
+  grid-area: social;
 }
 
-.waystocontact{
-
-
-
+.contact {
+  grid-area: contact;
 }
 
-
-
-
-.footer{
-
+.call {
+  grid-area: call;
 }
 
+.email {
+  grid-area: email;
+}
 
-
+.footer {
+  grid-area: footer;
+}
