@@ -1,21 +1,43 @@
 .grid-container{
     display: grid;
     grid-template-areas: 
-    "contact-section";
+    "header"
+    "headshot"
+    "social"
+    "call"
+
+    "footer";
+
+
+}
+
+.header{
+
+
+}
+
+.headshot{
+
+
+}
+
+.photoandcontactheader{
+
+
+}
+
+.waystocontact{
+
 
 
 }
 
 
 
-.contact-section{
-    grid-area: contact-section;
+
+.footer{
 
 }
-
-
-
-
 
 
 

@@ -1,7 +1,28 @@
 .grid-container {
   display: grid;
-  grid-template-areas: "nasa";
+  grid-template-areas: "nasa"
+  "footer";
 }
 
-.nasa {
+
+.header{
+
+}
+
+
+
+
+.galleryh1{
+
+}
+
+.nasa{
+
+
+}
+
+
+
+.footer{
+
 }
