@@ -1,3 +1,12 @@
+body {
+  font-family: Impact;
+  background-image: conic-gradient(#ffccf9, #fbe4ff, #c4faf8);
+  background-repeat: no-repeat;
+  background-size: cover;}
+
+
+
+
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -6,9 +15,6 @@
     "footer";
 }
 
-.header {
-  grid-area: header;
-}
 
 .main {
   grid-area: main;
@@ -20,8 +26,4 @@
 
 .headshot {
   max-width: 20%;
-}
-
-.headshot img {
-  max-width: 90%;
 }
